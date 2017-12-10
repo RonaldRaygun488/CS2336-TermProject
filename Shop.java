@@ -13,4 +13,6 @@ public abstract class Shop{
 			System.out.println(++i + ". " + menuItems.get(i));
 		}
 	}
+
+	public abstract void enterMenu();
 }
